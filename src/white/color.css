@@ -1,0 +1,297 @@
+:root {	
+	--black: 0, 0, 0;
+	--black--100: var(--black);
+	--black-hover: 33, 33, 33;
+
+	--white: 255, 255, 255;
+	--white-0: var(--white);
+	--white-hover: 232, 232, 232;
+
+	--yellow-10: 252, 244, 214;
+	--yellow-20: 253, 220, 105;
+	--yellow-30: 241, 194, 27;
+	--yellow-40: 210, 161, 6;
+	--yellow-50: 178, 134, 0;
+	--yellow-60: 142, 106, 0;
+	--yellow-70: 104, 78, 0;
+	--yellow-80: 72, 55, 0;
+	--yellow-90: 48, 36, 0;
+	--yellow-100: 28, 21, 0;
+	--yellow: var(--yellow-30);
+
+	--yellow-10-hover: 248, 230, 160;
+	--yellow-20-hover: 252, 205, 39;
+	--yellow-30-hover: 221, 176, 14;
+	--yellow-40-hover: 188, 144, 5;
+	--yellow-50-hover: 158, 119, 0;
+	--yellow-60-hover: 117, 88, 0;
+	--yellow-70-hover: 128, 96, 0;
+	--yellow-80-hover: 92, 70, 0;
+	--yellow-90-hover: 61, 46, 0;
+	--yellow-100-hover: 51, 38, 0;
+
+	--orange-10: 255, 242, 232;
+	--orange-20: 255, 217, 190;
+	--orange-30: 255, 183, 132;
+	--orange-40: 255, 131, 43;
+	--orange-50: 235, 98, 0;
+	--orange-60: 186, 78, 0;
+	--orange-70: 138, 56, 0;
+	--orange-80: 94, 41, 0;
+	--orange-90: 62, 26, 0;
+	--orange-100: 35, 16, 0;
+	--orange: var(--orange-40);
+
+	--orange-10-hover: 255, 226, 204;
+	--orange-20-hover: 255, 198, 158;
+	--orange-30-hover: 255, 157, 87;
+	--orange-40-hover: 250, 104, 0;
+	--orange-50-hover: 204, 85, 0;
+	--orange-60-hover: 158, 66, 0;
+	--orange-70-hover: 168, 68, 0;
+	--orange-80-hover: 117, 51, 0;
+	--orange-90-hover: 82, 34, 0;
+	--orange-100-hover: 66, 30, 0;
+
+	--red-10: 255, 241, 241;
+	--red-20: 255, 215, 217;
+	--red-30: 255, 179, 184;
+	--red-40: 255, 131, 137;
+	--red-50: 250, 77, 86;
+	--red-60: 218, 30, 40;
+	--red-70: 162, 25, 31;
+	--red-80: 117, 14, 19;
+	--red-90: 82, 4, 8;
+	--red-100: 45, 7, 9;
+
+	--red-100-hover: 84, 13, 17;
+	--red-90-hover: 102, 5, 10;
+	--red-80-hover: 146, 17, 24;
+	--red-70-hover: 194, 30, 37;
+	--red-60-hover: 184, 25, 34;
+	--red-50-hover: 238, 7, 19;
+	--red-40-hover: 255, 97, 104;
+	--red-30-hover: 255, 153, 160;
+	--red-20-hover: 255, 194, 197;
+	--red-10-hover: 255, 224, 224;
+
+	--magenta-10: 255, 240, 247;
+	--magenta-20: 255, 214, 232;
+	--magenta-30: 255, 175, 210;
+	--magenta-40: 255, 126, 182;
+	--magenta-50: 238, 83, 150;
+	--magenta-60: 208, 38, 112;
+	--magenta-70: 159, 24, 83;
+	--magenta-80: 116, 9, 55;
+	--magenta-90: 81, 2, 36;
+	--magenta-100: 42, 10, 24;
+
+	--magenta-100-hover: 83, 20, 47;
+	--magenta-90-hover: 104, 3, 46;
+	--magenta-80-hover: 142, 11, 67;
+	--magenta-70-hover: 191, 29, 99;
+	--magenta-60-hover: 176, 33, 95;
+	--magenta-50-hover: 227, 23, 111;
+	--magenta-40-hover: 255, 87, 160;
+	--magenta-30-hover: 255, 148, 195;
+	--magenta-20-hover: 255, 189, 218;
+	--magenta-10-hover: 255, 224, 239;
+
+	--purple-10: 246, 242, 255;
+	--purple-20: 232, 218, 255;
+	--purple-30: 212, 187, 255;
+	--purple-40: 190, 149, 255;
+	--purple-50: 165, 110, 255;
+	--purple-60: 138, 63, 252;
+	--purple-70: 105, 41, 196;
+	--purple-80: 73, 29, 139;
+	--purple-90: 49, 19, 94;
+	--purple-100: 28, 15, 48;
+
+	--purple-100-hover: 52, 28, 89;
+	--purple-90-hover: 64, 25, 123;
+	--purple-80-hover: 91, 36, 173;
+	--purple-70-hover: 124, 61, 214;
+	--purple-60-hover: 120, 34, 251;
+	--purple-50-hover: 147, 82, 255;
+	--purple-40-hover: 174, 122, 255;
+	--purple-30-hover: 197, 163, 255;
+	--purple-20-hover: 220, 199, 255;
+	--purple-10-hover: 237, 229, 255;
+
+	--blue-10: 237, 245, 255;
+	--blue-20: 208, 226, 255;
+	--blue-30: 166, 200, 255;
+	--blue-40: 120, 169, 255;
+	--blue-50: 69, 137, 255;
+	--blue-60: 15, 98, 254;
+	--blue-70: 0, 67, 206;
+	--blue-80: 0, 45, 156;
+	--blue-90: 0, 29, 108;
+	--blue-100: 0, 17, 65;
+
+	--blue-100-hover: 0, 31, 117;
+	--blue-90-hover: 0, 37, 138;
+	--blue-80-hover: 0, 57, 199;
+	--blue-70-hover: 0, 83, 255;
+	--blue-60-hover: 0, 80, 230;
+	--blue-50-hover: 31, 112, 255;
+	--blue-40-hover: 92, 151, 255;
+	--blue-30-hover: 138, 182, 255;
+	--blue-20-hover: 184, 211, 255;
+	--blue-10-hover: 219, 235, 255;
+
+	--cyan-10: 229, 246, 255;
+	--cyan-20: 186, 230, 255;
+	--cyan-30: 130, 207, 255;
+	--cyan-40: 51, 177, 255;
+	--cyan-50: 17, 146, 232;
+	--cyan-60: 0, 114, 195;
+	--cyan-70: 0, 83, 154;
+	--cyan-80: 0, 58, 109;
+	--cyan-90: 1, 39, 73;
+	--cyan-100: 6, 23, 39;
+
+	--cyan-10-hover: 204, 238, 255;
+	--cyan-20-hover: 153, 218, 255;
+	--cyan-30-hover: 87, 190, 255;
+	--cyan-40-hover: 5, 159, 255;
+	--cyan-50-hover: 15, 126, 200;
+	--cyan-60-hover: 0, 95, 163;
+	--cyan-70-hover: 0, 102, 189;
+	--cyan-80-hover: 0, 73, 138;
+	--cyan-90-hover: 1, 51, 96;
+	--cyan-100-hover: 11, 41, 71;
+
+	--teal-10: 217, 251, 251;
+	--teal-20: 158, 240, 240;
+	--teal-30: 61, 219, 217;
+	--teal-40: 8, 189, 186;
+	--teal-50: 0, 157, 154;
+	--teal-60: 0, 125, 121;
+	--teal-70: 0, 93, 93;
+	--teal-80: 0, 65, 68;
+	--teal-90: 2, 43, 48;
+	--teal-100: 8, 26, 28;
+
+	--teal-10-hover: 172, 246, 246;
+	--teal-20-hover: 87, 229, 229;
+	--teal-30-hover: 37, 202, 200;
+	--teal-40-hover: 7, 171, 169;
+	--teal-50-hover: 0, 138, 135;
+	--teal-60-hover: 0, 107, 104;
+	--teal-70-hover: 0, 112, 112;
+	--teal-80-hover: 0, 83, 87;
+	--teal-90-hover: 3, 57, 64;
+	--teal-100-hover: 15, 48, 52;
+
+	--green-10: 222, 251, 230;
+	--green-20: 167, 240, 186;
+	--green-30: 111, 220, 140;
+	--green-40: 66, 190, 101;
+	--green-50: 36, 161, 72;
+	--green-60: 25, 128, 56;
+	--green-70: 14, 96, 39;
+	--green-80: 4, 67, 23;
+	--green-90: 2, 45, 13;
+	--green-100: 7, 25, 8;
+
+	--green-10-hover: 182, 246, 200;
+	--green-20-hover: 116, 231, 146;
+	--green-30-hover: 54, 206, 94;
+	--green-40-hover: 59, 171, 90;
+	--green-50-hover: 32, 142, 63;
+	--green-60-hover: 22, 111, 49;
+	--green-70-hover: 17, 116, 47;
+	--green-80-hover: 5, 82, 28;
+	--green-90-hover: 3, 59, 17;
+	--green-100-hover: 13, 48, 15;
+
+	--cool-gray-10: 242, 244, 248;
+	--cool-gray-20: 221, 225, 230;
+	--cool-gray-30: 193, 199, 205;
+	--cool-gray-40: 162, 169, 176;
+	--cool-gray-50: 135, 141, 150;
+	--cool-gray-60: 105, 112, 119;
+	--cool-gray-70: 77, 83, 88;
+	--cool-gray-80: 52, 58, 63;
+	--cool-gray-90: 33, 39, 42;
+	--cool-gray-100: 18, 22, 25;
+
+	--cool-gray-10-hover: 228, 233, 241;
+	--cool-gray-20-hover: 205, 211, 218;
+	--cool-gray-30-hover: 173, 181, 189;
+	--cool-gray-40-hover: 145, 153, 161;
+	--cool-gray-50-hover: 117, 123, 133;
+	--cool-gray-60-hover: 88, 94, 100;
+	--cool-gray-70-hover: 93, 100, 106;
+	--cool-gray-80-hover: 67, 74, 81;
+	--cool-gray-90-hover: 43, 50, 54;
+	--cool-gray-100-hover: 34, 42, 47;
+
+	--gray-10: 244, 244, 244;
+	--gray-20: 224, 224, 224;
+	--gray-30: 198, 198, 198;
+	--gray-40: 168, 168, 168;
+	--gray-50: 141, 141, 141;
+	--gray-60: 111, 111, 111;
+	--gray-70: 82, 82, 82;
+	--gray-80: 57, 57, 57;
+	--gray-90: 38, 38, 38;
+	--gray-100: 22, 22, 22;
+
+	--gray-10-hover: 232, 232, 232;
+	--gray-20-hover: 209, 209, 209;
+	--gray-30-hover: 181, 181, 181;
+	--gray-40-hover: 153, 153, 153;
+	--gray-50-hover: 122, 122, 122;
+	--gray-60-hover: 94, 94, 94;
+	--gray-70-hover: 99, 99, 99;
+	--gray-80-hover: 71, 71, 71;
+	--gray-90-hover: 51, 51, 51;
+	--gray-100-hover: 41, 41, 41;
+
+	--warm-gray-10: 247, 243, 242;
+	--warm-gray-20: 229, 224, 223;
+	--warm-gray-30: 202, 197, 196;
+	--warm-gray-40: 173, 168, 168;
+	--warm-gray-50: 143, 139, 139;
+	--warm-gray-60: 114, 110, 110;
+	--warm-gray-70: 86, 81, 81;
+	--warm-gray-80: 60, 56, 56;
+	--warm-gray-90: 39, 37, 37;
+	--warm-gray-100: 23, 20, 20;
+
+	--warm-gray-10-hover: 240, 232, 230;
+	--warm-gray-20-hover: 216, 208, 207;
+	--warm-gray-30-hover: 185, 179, 177;
+	--warm-gray-40-hover: 156, 150, 150;
+	--warm-gray-50-hover: 127, 123, 123;
+	--warm-gray-60-hover: 96, 93, 93;
+	--warm-gray-70-hover: 105, 99, 99;
+	--warm-gray-80-hover: 76, 72, 72;
+	--warm-gray-90-hover: 52, 50, 50;
+	--warm-gray-100-hover: 44, 38, 38;
+
+	--accent-100: var(--blue-100);
+    --accent-90: var(--blue-90);
+    --accent-80: var(--blue-80);
+    --accent-70: var(--blue-70);
+    --accent-60: var(--blue-60);
+    --accent-50: var(--blue-50);
+    --accent-40: var(--blue-40);
+    --accent-30: var(--blue-30);
+    --accent-20: var(--blue-20);
+    --accent-10: var(--blue-10);
+
+	--accent-100-hover: var(--blue-100-hover);
+    --accent-90-hover: var(--blue-90-hover);
+    --accent-80-hover: var(--blue-80-hover);
+    --accent-70-hover: var(--blue-70-hover);
+    --accent-60-hover: var(--blue-60-hover);
+    --accent-50-hover: var(--blue-50-hover);
+    --accent-40-hover: var(--blue-40-hover);
+    --accent-30-hover: var(--blue-30-hover);
+    --accent-20-hover: var(--blue-20-hover);
+    --accent-10-hover: var(--blue-10-hover);
+}
