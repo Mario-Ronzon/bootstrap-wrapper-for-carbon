@@ -7,6 +7,7 @@
 
 body{
     background-color: var(--background);
+    color: var(--text-primary);
 }
 
 .bg-primary {
@@ -142,7 +143,7 @@ body{
 .btn-outline-primary:hover:enabled {
     transition: ease-in-out 0.2s;
     color: var(--text-inverse);
-    background-color: var(button-tertiary-hover);
+    background-color: var(--button-tertiary-hover);
 }
 
 .btn-outline-primary:active:enabled {
@@ -239,6 +240,7 @@ body{
 }
 
 .btn-light:focus:enabled {
+    color: var(--icon-primary);
 	background-color: transparent;
     outline-style: solid;
     outline-width: 1px;
@@ -701,14 +703,12 @@ body{
     background-color: transparent;
 }
 
-.form-switch .form-check-input[type=checkbox] {
-    border-radius: 1rem;
-}
-
 .form-check-input[type=checkbox]:checked {
     transition: ease-in-out 0.2s;
     background-color: var(--text-primary);
+    background-image: var(--checkbox-svg-on);
 }
+
 
 .form-check-input[type=checkbox]:focus {
     outline-style: solid;
@@ -729,7 +729,8 @@ body{
 
 .form-check-input[type=radio]:checked {
     transition: ease-in-out 0.2s;
-    background-color: var(--text-primary);
+    /*background-color: var(--text-primary);*/
+    background-image: var(--radio-svg-on);
 }
 
 .form-check-input[type=radio]:focus {
@@ -742,6 +743,15 @@ body{
 .form-check-input[type=radio]:disabled {
     color: var(--text-disabled);
     border-color: var(--text-disabled);
+}
+
+.form-switch .form-check-input[type=checkbox] {
+    border-radius: 1rem;
+    background-image: var(--switch-svg-off);
+}
+
+.form-switch .form-check-input[type=checkbox]:checked {
+    background-image: var(--switch-svg-on);
 }
 
 /*MODALES*/
@@ -1098,4 +1108,10 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     outline-style: solid;
     outline-width: 1px;
     outline-color: var(--focus);
+}
+
+/* SITEFINITY */
+
+.top-table{
+    background-color: var(--layer-01);
 }
