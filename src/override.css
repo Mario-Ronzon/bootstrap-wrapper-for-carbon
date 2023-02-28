@@ -769,6 +769,47 @@ body{
     background-color: var(--layer-02);
 }
 
+/* OVERFLOW MENU (DROPDOWN MENU) */
+
+.dropdown-menu {
+    --bs-dropdown-color: var(--text-secondary);
+    --bs-dropdown-bg: var(--layer-01);
+
+    --bs-dropdown-link-color: var(--text-secondary);
+    --bs-dropdown-link-hover-color: var(--text-primary);
+    --bs-dropdown-link-hover-bg: var(--layer-hover-01);
+    --bs-dropdown-link-active-color: var(--text-primary);
+    --bs-dropdown-link-active-bg: var(--layer-active-01);
+    --bs-dropdown-link-disabled-color: var(--text-disabled);
+    
+    color: var(--text-secondary);
+    background-color: var(--layer-01);
+    border-radius: var(--corner-radius);
+}
+
+.dropdown-menu .dropdown-item{
+    color: var(--text-secondary);
+}
+
+.dropdown-menu .dropdown-item:focus{
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: var(--focus);
+
+    color: var(--text-primary);
+    background-color: var(--layer-hover-01);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--text-primary);
+    background-color: var(--layer-hover-01);
+}
+
+.dropdown-menu .dropdown-item:active {
+    color: var(--text-primary);
+    background-color: var(--layer-hover-01);
+}
+
 /*TABLA POR DEFECTO HTML*/
 
 table thead {
@@ -883,7 +924,7 @@ tbody tr:focus {
 
 .top-search-bar:focus-within .btn-dark + input[type=text] {
     transition: ease-in-out 0.2s;
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
     background-color: rgba(var(--gray-90), 1);
 }
@@ -1071,8 +1112,9 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     border-left: none;
 }
 
-.k-picker.k-dropdown.k-widget.k-picker-solid.k-picker-md.k-rounded-md{
+.k-picker.k-dropdown.k-widget.k-picker-solid.k-picker-md.k-rounded-md, .k-button{
     border-radius: var(--corner-radius);
+    color: var(--text-secondary);
 }
 
 .k-picker.k-dropdown.k-widget.k-picker-solid.k-picker-md.k-rounded-md:focus-within{
@@ -1085,7 +1127,7 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
 .k-picker.k-dropdown.k-widget.k-picker-solid.k-picker-md.k-rounded-md:hover .k-button*/{
     transition: ease-in-out 0.2s;
     color: var(--text-primary);
-    background-color: var(--background-hover);
+    background-color: var(--layer-hover-01);
 }
 
 .k-picker.k-dropdown.k-widget.k-picker-solid.k-picker-md.k-rounded-md:hover .k-button{
@@ -1108,6 +1150,19 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     outline-style: solid;
     outline-width: 1px;
     outline-color: var(--focus);
+}
+
+.k-grid tbody tr.k-state-hover, .k-grid tbody tr:hover {
+    background-color: var(--layer-hover-01);
+}
+
+.k-drag-clue, .k-grid-header .k-header>.k-link, .k-header, .k-menu, .k-tabstrip, .k-treemap-title {
+    color: var(--text-primary);
+}
+
+.k-input, .k-multiselect-wrap, .k-textbox, .k-textbox>input {
+    background-color: var(--layer-02);
+    color: var(--text-secondary);
 }
 
 /* SITEFINITY */

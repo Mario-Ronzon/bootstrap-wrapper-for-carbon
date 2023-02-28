@@ -16,7 +16,7 @@
 
     --layer-02: rgba(var(--white-0), 1);
     --layer-active-02: rgba(var(--gray-30), 1);
-    --layer-hover-02: rgba(var(--white-hover), 1);
+    --layer-hover-02: rgba(var(--gray-10-hover), 1);
     --layer-selected-02: rgba(var(--gray-20), 1);
     --layer-selected-hover-02: rgba(var(--gray-20-hover), 1);
 

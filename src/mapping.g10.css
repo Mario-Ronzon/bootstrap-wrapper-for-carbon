@@ -10,7 +10,7 @@
 
     --layer-01: rgba(var(--white-0), 1);
     --layer-active-01: rgba(var(--gray-30), 1);
-    --layer-hover-01: rgba(var(--white-0-hover), 1);
+    --layer-hover-01: rgba(var(--gray-10-hover), 1);
     --layer-selected-01: rgba(var(--gray-20), 1);
     --layer-selected-hover-01: rgba(var(--gray-20-hover), 1);
 
@@ -23,7 +23,7 @@
 
     --layer-03: rgba(var(--white-0), 1);
     --layer-active-03: rgba(var(--gray-30), 1);
-    --layer-hover-03: rgba(var(--white-0-hover), 1);
+    --layer-hover-03: rgba(var(--gray-10-hover), 1);
     --layer-selected-03: rgba(var(--gray-20), 1);
     --layer-selected-hover-03: rgba(var(--gray-20-hover), 1);
 
