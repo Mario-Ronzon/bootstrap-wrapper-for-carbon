@@ -1170,3 +1170,11 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
 .top-table{
     background-color: var(--layer-01);
 }
+
+#toolbar-batch .btn-primary span {
+    padding-right: 1rem;
+}
+
+#toolbar-batch span.me-auto {
+    padding-left: 1rem;
+}
