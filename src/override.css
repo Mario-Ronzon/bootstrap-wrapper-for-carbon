@@ -769,6 +769,30 @@ body{
     background-color: var(--layer-02);
 }
 
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-title {
+    color: var(--text-secondary);
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.modal-footer{
+    border-top: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.modal-footer .btn{
+    padding-bottom: calc(var(--btn-inner-padding) * 2);
+}
+
 /* OVERFLOW MENU (DROPDOWN MENU) */
 
 .dropdown-menu {
@@ -789,6 +813,7 @@ body{
 
 .dropdown-menu .dropdown-item{
     color: var(--text-secondary);
+    cursor: pointer;
 }
 
 .dropdown-menu .dropdown-item:focus{
@@ -941,6 +966,11 @@ tbody tr:focus {
 /* --- KENDO --- */
 
 /*GRID*/
+
+.k-grid {
+    font-size: 16px;
+}
+
 .k-widget {
     box-shadow: none;
 }
@@ -997,6 +1027,7 @@ tbody tr:focus {
 
 thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:first-child {
     border: 0px;
+    border-radius: 0px;
 }
 
 .k-grid tr td {
@@ -1163,6 +1194,12 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
 .k-input, .k-multiselect-wrap, .k-textbox, .k-textbox>input {
     background-color: var(--layer-02);
     color: var(--text-secondary);
+}
+
+.k-popup {
+    /*border-color: rgba(0,0,0,.08);*/
+    color: var(--text-secondary);
+    background-color: var(--layer-01);
 }
 
 /* SITEFINITY */
