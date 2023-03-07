@@ -71,7 +71,7 @@
 
     --border-inverse: rgba(var(--gray-100), 1);
 
-    --borderInter-active: rgba(var(--accent-80), 1);
+    --border-interactive: rgba(var(--accent-60), 1);
 
     --border-disabled: rgba(var(--gray-30), 1);
 

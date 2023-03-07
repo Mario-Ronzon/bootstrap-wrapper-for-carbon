@@ -835,6 +835,85 @@ body{
     background-color: var(--layer-hover-01);
 }
 
+/* NAV & TABS */
+
+a:-webkit-any-link:focus-visible {
+    outline:none;
+}
+
+.nav .nav-item .nav-link {
+    color: var(--text-secondary);
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--border-subtle-00);
+    padding: 0.75rem 1rem;
+}
+
+.nav .nav-item .nav-link.active {
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border-interactive);
+}
+
+.nav .nav-item .nav-link:focus {
+    color: var(--text-primary);
+    border-color: var(--focus);
+}
+
+.nav .nav-item .nav-link.disabled {
+    color: var(--text-disabled);
+    border-bottom: 2px solid var(--border-disabled);
+}
+
+.nav .nav-item.flex-fill .nav-link.disabled {
+    color: var(--text-secondary);
+    border-bottom: 2px solid var(--border-subtle-00);
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+
+.nav.nav-tabs .nav-item .nav-link {
+    color: var(--text-secondary);
+    background-color: var(--layer-accent-01);
+    border-radius: var(--corner-radius);
+    padding: 1rem 1rem;
+}
+
+.nav.nav-tabs .nav-item:not(:last-of-type) .nav-link {
+    border-right: 1px solid var(--border-strong-01);
+}
+
+.nav.nav-tabs .nav-item:not(:last-of-type) .nav-link.disabled {
+    border-right: 1px solid var(--border-disabled);
+}
+
+.nav.nav-tabs .nav-item .nav-link:focus {
+    border: 2px solid var(--focus);
+}
+
+.nav.nav-tabs .nav-item .nav-link:hover {
+    color: var(--text-primary);
+    background-color: var(--layer-accent-hover-01);
+}
+
+.nav.nav-tabs .nav-item .nav-link.disabled {
+    color: var(--text-disabled);
+    background-color: var(--button-disabled);
+}
+
+.nav.nav-tabs .nav-item .nav-link.active {
+    color: var(--text-primary);
+    background-color: var(--layer-01);
+    border-right: none;
+    border-bottom: 2px solid var(--layer-01);
+    border-top: 2px solid var(--border-interactive);
+    border-radius: var(--corner-radius);
+}
+
+.nav.nav-tabs .nav-item .nav-link.active:focus {
+    border: 2px solid var(--focus);
+}
+
 /*TABLA POR DEFECTO HTML*/
 
 table thead {
