@@ -442,12 +442,12 @@ body{
     outline-color: rgba(var(--green-60),1);
 }
 
-/* TOPBAR BUTTON (EXPERIMENTAL) */
+/* UI-SHELL BUTTON (EXPERIMENTAL) */
 
 .btn-dark {
     border-radius: var(--corner-radius);
-    color: rgba(var(--gray-10), 1);
-    background-color: rgba(var(--gray-100), 1);
+    color: var(--text-on-color);
+    background-color: var(--ui-shell);
     border: none;
     padding: var(--btn-inner-padding);
 }
@@ -461,8 +461,8 @@ body{
 }
 
 .btn-dark:disabled {
-    color: rgba(var(--gray-70), 1);
-    background-color: rgba(var(--gray-80), 1);
+    color: var(--text-on-color-disabled);
+    background-color: var(--ui-shell-disabled);
     cursor: not-allowed;
     opacity: unset;
     /*pointer-events: unset;*/
@@ -470,18 +470,18 @@ body{
 
 .btn-dark:hover:enabled {
     transition: ease-in-out 0.2s;
-    background-color: rgba(var(--gray-90), 1);
+    background-color: var(--ui-shell-hover);
 }
 
 .btn-dark:active:enabled {
     transition: ease-in-out 0.2s;
-    background-color: rgba(var(--gray-80), 1);
+    background-color: var(--ui-shell-active);
 }
 
 .btn-dark:focus:enabled {
     outline-style: solid;
     outline-width: 1px;
-    outline-color: rgba(var(--gray-10), 1);
+    outline-color: var(--ui-shell-focus);
 	border: none;
     box-shadow: none;
 }
@@ -1283,6 +1283,7 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
 
 /* SITEFINITY */
 
+/* TOP-TABLE */
 .top-table{
     background-color: var(--layer-01);
 }
@@ -1293,4 +1294,48 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
 
 #toolbar-batch span.me-auto {
     padding-left: 1rem;
+}
+
+/* NAVBAR */
+
+.sidebar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0px;
+}
+
+.nav-background-color {
+    background-color: var(--ui-shell);
+}
+
+div.sf-submenu {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+
+div.sf-opened {
+    display: block;
+}
+
+div.sf-closed {
+    display: none;
+}
+
+/* Hide scrollbar for Come, Safari and Opera */
+.navbar-body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.navbar-body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.navbar-header {
+    border-bottom: var(--ui-shell-border) 1px solid;
+}
+
+.navbar-footer {
+    border-top: var(--ui-shell-border) 1px solid;
 }

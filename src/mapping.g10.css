@@ -145,6 +145,14 @@
     --toggle-off: rgba(var(--gray-50), 1);
     --shadow: rgba(0, 0, 0, 0.3);
 
+    /* NON-ORIGINAL(SF/BS) */
+    --ui-shell: rgba(var(--gray-100), 1);
+    --ui-shell-hover: rgba(var(--gray-90), 1);
+    --ui-shell-active: rgba(var(--gray-80), 1);
+    --ui-shell-focus: rgba(var(--white-0), 1);
+    --ui-shell-disabled: rgba(var(--gray-80), 1);
+    --ui-shell-border: rgba(var(--gray-70), 1);
+    
     --switch-svg-off: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%2822, 22, 22, 1%29'/%3e%3c/svg%3e");
     --switch-svg-on: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28244, 244, 244, 1%29'/%3e%3c/svg%3e");
     --checkbox-svg-on: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23f4f4f4' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
