@@ -1007,13 +1007,13 @@ tbody tr:focus {
 .top-search-bar:focus-within {
     outline-style: solid;
     outline-width: 1px;
-    outline-color: rgba(var(--gray-10), 1);
+    outline-color: var(--ui-shell-focus);
   }
 
 .top-search-bar .btn-dark + input[type=text] {
     width: 0px;
     border: none;
-    color: rgba(var(--gray-30), 1);
+    color: var(--text-on-color);
 }
 
 .top-search-bar .btn-dark + input[type=text]:focus,
@@ -1030,12 +1030,13 @@ tbody tr:focus {
     transition: ease-in-out 0.2s;
     width: 100%;
     box-sizing: border-box;
-    background-color: rgba(var(--gray-90), 1);
+    background-color: var(--ui-shell);
 }
 
 .top-search-bar .btn-dark:hover + input[type=text] {
     transition: ease-in-out 0.2s;
-    color: rgba(var(--gray-10), 1);
+    color: var(--text-on-color);
+    background-color: var(--ui-shell-hover);
 }
 
 .top-search-bar ~ .dropdown .dropdown-toggle::after {
