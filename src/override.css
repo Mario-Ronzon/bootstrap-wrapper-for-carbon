@@ -49,7 +49,7 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-primary:focus:enabled {
+.btn-primary:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: var(--focus);
@@ -57,12 +57,12 @@ body{
     box-shadow: none;
 }
 
-.btn-primary:hover:enabled {
+.btn-primary:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-primary-hover);
 }
 
-.btn-primary:active:enabled {
+.btn-primary:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-primary-active);
 }
@@ -93,7 +93,7 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-secondary:focus:enabled {
+.btn-secondary:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: var(--focus);
@@ -101,12 +101,12 @@ body{
     box-shadow: none;
 }
 
-.btn-secondary:hover:enabled {
+.btn-secondary:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-secondary-hover);
 }
 
-.btn-secondary:active:enabled {
+.btn-secondary:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-secondary-active);
 }
@@ -140,19 +140,19 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-outline-primary:hover:enabled {
+.btn-outline-primary:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--text-inverse);
     background-color: var(--button-tertiary-hover);
 }
 
-.btn-outline-primary:active:enabled {
+.btn-outline-primary:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--text-inverse);
     background-color: var(--button-tertiary-active);
 }
 
-.btn-outline-primary:focus:enabled {
+.btn-outline-primary:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: var(--focus);
@@ -186,18 +186,18 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-link:hover:enabled {
+.btn-link:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--link-primary-hover);
     background-color: var(--background-hover);
 }
 
-.btn-link:active:enabled {
+.btn-link:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--background-active);
 }
 
-.btn-link:focus:enabled {
+.btn-link:focus:not(:disabled) {
     outline-style: solid;
     outline-width: 1px;
     outline-color: var(--focus);
@@ -239,7 +239,7 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-light:focus:enabled {
+.btn-light:focus:not(:disabled) {
     color: var(--icon-primary);
 	background-color: transparent;
     outline-style: solid;
@@ -249,13 +249,13 @@ body{
     box-shadow: none;
 }
 
-.btn-light:hover:enabled {
+.btn-light:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--icon-primary);
     background-color: var(--background-hover);
 }
 
-.btn-light:active:enabled {
+.btn-light:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--background-active);
 }
@@ -278,7 +278,7 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-danger:focus:enabled {
+.btn-danger:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: var(--focus);
@@ -286,12 +286,12 @@ body{
     box-shadow: none;
 }
 
-.btn-danger:hover:enabled {
+.btn-danger:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-danger-hover);
 }
 
-.btn-danger:active:enabled {
+.btn-danger:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--button-danger-active);
 }
@@ -325,19 +325,19 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-outline-danger:hover:enabled {
+.btn-outline-danger:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--text-on-color);
     background-color: var(--button-danger-hover);
 }
 
-.btn-outline-danger:active:enabled {
+.btn-outline-danger:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: var(--text-on-color);
     background-color: var(--button-danger-active);
 }
 
-.btn-outline-danger:focus:enabled {
+.btn-outline-danger:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: var(--focus);
@@ -379,17 +379,17 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-success:hover:enabled {
+.btn-success:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: rgba(var(--green-60), 0.9);
 }
 
-.btn-success:active:enabled {
+.btn-success:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: rgba(var(--green-60), 0.8);
 }
 
-.btn-success:focus:enabled {
+.btn-success:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: rgba(var(--green-60), 1);
@@ -424,19 +424,19 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-outline-success:hover:enabled {
+.btn-outline-success:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: white;
     background-color: rgba(var(--green-60),1);
 }
 
-.btn-outline-success:active:enabled {
+.btn-outline-success:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     color: rgba(var(--accent-10),1);
     background-color: rgba(var(--green-60),0.9);
 }
 
-.btn-outline-success:focus:enabled {
+.btn-outline-success:focus:not(:disabled) {
     outline-style: double;
     outline-width: 5px;
     outline-color: rgba(var(--green-60),1);
@@ -468,17 +468,17 @@ body{
     /*pointer-events: unset;*/
 }
 
-.btn-dark:hover:enabled {
+.btn-dark:hover:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--ui-shell-hover);
 }
 
-.btn-dark:active:enabled {
+.btn-dark:active:not(:disabled) {
     transition: ease-in-out 0.2s;
     background-color: var(--ui-shell-active);
 }
 
-.btn-dark:focus:enabled {
+.btn-dark:focus:not(:disabled) {
     outline-style: solid;
     outline-width: 1px;
     outline-color: var(--ui-shell-focus);
@@ -507,7 +507,7 @@ body{
     color: var(--text-disabled);
 }
 
-.form-control:focus:enabled {
+.form-control:focus:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--focus);
@@ -517,25 +517,25 @@ body{
     border-color: transparent;
 }
 
-.form-control.is-invalid:enabled {
+.form-control.is-invalid:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--support-error);
     border-color: transparent;
 }
 
-.form-control.is-valid:enabled {
+.form-control.is-valid:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--support-success);/*not included in carbon*/
     border-color: transparent;
 }
 
-.form-control.is-invalid:enabled~.form-text {
+.form-control.is-invalid:not(:disabled)~.form-text {
     display: none;
 }
 
-.form-control.is-valid:enabled~.form-text {
+.form-control.is-valid:not(:disabled)~.form-text {
     display: none;
 }
 
@@ -639,7 +639,7 @@ body{
     color: var(--text-primary);
 }
 
-.form-select:enabled {
+.form-select:not(:disabled) {
     cursor: pointer;
 }
 
@@ -653,7 +653,7 @@ body{
     color: var(--text-disabled);
 }
 
-.form-select:focus:enabled {
+.form-select:focus:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--focus);
@@ -663,25 +663,25 @@ body{
     border-color: transparent;
 }
 
-.form-select.is-invalid:enabled {
+.form-select.is-invalid:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--support-error);
     border-color: transparent;
 }
 
-.form-select.is-valid:enabled {
+.form-select.is-valid:not(:disabled) {
     outline-style: solid;
     outline-width: 2px;
     outline-color: var(--support-success);
     border-color: transparent;
 }
 
-.form-select.is-invalid:enabled~.form-text {
+.form-select.is-invalid:not(:disabled)~.form-text {
     display: none;
 }
 
-.form-select.is-valid:enabled~.form-text {
+.form-select.is-valid:not(:disabled)~.form-text {
     display: none;
 }
 
@@ -765,7 +765,7 @@ body{
     background-color: var(--layer-02);
 }
 
-.modal-content .form-control:focus:enabled, .modal-content .form-select:focus:enabled {
+.modal-content .form-control:focus:not(:disabled), .modal-content .form-select:focus:not(:disabled) {
     background-color: var(--layer-02);
 }
 
@@ -923,7 +923,7 @@ table thead {
 }
 
 tbody tr {
-    
+    background-color: var(--layer-01);
     border-color: var(--border-subtle-01);
     color: var(--text-secondary);
 }
@@ -940,18 +940,36 @@ tbody tr:focus {
     outline-color: var(--focus);
 }
 
+tbody tr.selected {
+    background-color: var(--layer-accent-01);
+}
+
+.table>:not(caption)>*>* {
+    padding: var(--btn-inner-padding);
+    border-bottom-width: 1px;
+    box-shadow: none;
+}
+
+.table>:not(:last-child)>:last-child>* {
+    border-color: var(--border-subtle-01);
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
 /*TABLA EXTERIOR*/
 
-.table-top{
+.table-top {
     padding: 1rem;
     padding-bottom: 1.5rem;
 }
 
-.table-top h3{
+.table-top h3 {
     color: var(--text-primary);
 }
 
-.table-top span{
+.table-top span {
     color: var(--text-secondary);
 }
 
