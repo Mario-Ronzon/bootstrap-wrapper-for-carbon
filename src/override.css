@@ -30,6 +30,66 @@ body{
     background-color: rgba(var(--gray-100), 1) !important;
 }
 
+/* ALERTS (NOTIFICATIONS) */
+
+.alert{
+    --bs-alert-padding-x: var(--btn-inner-padding);
+    --bs-alert-padding-y: var(--btn-inner-padding);
+    --bs-alert-border-radius: var(--corner-radius);
+    --bs-alert-border: none;
+}
+
+.alert .btn-close {
+    background-image: var(--btn-close-svg-on);
+}
+
+.alert-primary {
+    --bs-alert-color: var(--text-inverse);
+    --bs-alert-bg: var(--background-inverse);
+    --bs-alert-border-color: var(--support-info-inverse);
+    border-left: 0.25rem solid var(--support-info-inverse);
+}
+
+.alert-primary i {
+    padding-right: var(--btn-inner-padding);
+    color: var(--support-info-inverse);
+}
+
+.alert-success {
+    --bs-alert-color: var(--text-inverse);
+    --bs-alert-bg: var(--background-inverse);
+    --bs-alert-border-color: var(--support-success-inverse);
+    border-left: 0.25rem solid var(--support-success-inverse);
+}
+
+.alert-success i {
+    padding-right: var(--btn-inner-padding);
+    color: var(--support-success-inverse);
+}
+
+.alert-danger {
+    --bs-alert-color: var(--text-inverse);
+    --bs-alert-bg: var(--background-inverse);
+    --bs-alert-border-color: var(--support-error-inverse);
+    border-left: 0.25rem solid var(--support-error-inverse);
+}
+
+.alert-danger i {
+    padding-right: var(--btn-inner-padding);
+    color: var(--support-error-inverse);
+}
+
+.alert-warning {
+    --bs-alert-color: var(--text-inverse);
+    --bs-alert-bg: var(--background-inverse);
+    --bs-alert-border-color: var(--support-warning-inverse);
+    border-left: 0.25rem solid var(--support-warning-inverse);
+}
+
+.alert-warning i {
+    padding-right: var(--btn-inner-padding);
+    color: var(--support-warning-inverse);
+}
 
 /* PRIMARY BUTTON */
 
@@ -351,6 +411,10 @@ body{
 
 .btn-outline-danger span {
     padding-right: 2rem;
+}
+
+.btn-close {
+    background-image: var(--btn-close-svg-off);
 }
 
 /*BOTON EXPERIMENTAL SUCCESS*/
