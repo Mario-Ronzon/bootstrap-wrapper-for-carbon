@@ -1391,18 +1391,36 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     background-color: var(--ui-shell);
 }
 
-div.sf-submenu {
+.sf-submenu.sf-opened *{
+    display:block;
+}
+.sf-submenu.sf-closed *{
+    display:none;
+    padding: 0px;
+}
+
+.sf-submenu.sf-opened {
     margin-left: 1rem;
     margin-top: 1rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
+    transition: ease-in-out 0.2s;
+    height: fit-content;
+}
+.sf-submenu.sf-closed {
+    margin-left: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    transition: ease-in-out 0.2s;
+    height: 0px;
 }
 
-div.sf-opened {
-    display: block;
+.sf-opened i:last-child {
+    transition: ease-in-out 0.2s;
+    transform: rotate(180deg);
 }
-
-div.sf-closed {
-    display: none;
+.sf-closed i:last-child {
+    transition: ease-in-out 0.2s;
+    transform: rotate(0deg);
 }
 
 /* Hide scrollbar for Come, Safari and Opera */
