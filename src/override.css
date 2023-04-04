@@ -550,6 +550,11 @@ body{
     box-shadow: none;
 }
 
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+     border-top-right-radius: var(--corner-radius);
+    border-bottom-right-radius: var(--corner-radius);
+}
+
 /*FORMULARIOS*/
 
 .form-control {
