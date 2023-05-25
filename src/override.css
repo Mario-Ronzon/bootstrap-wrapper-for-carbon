@@ -1,8 +1,3 @@
-:root{
-    --corner-radius: 0px;
-    --btn-inner-padding: 1rem;
-}
-
 /* FONDOS (EXPERIMENTAL) */
 
 body{
@@ -1027,6 +1022,10 @@ tbody tr.selected {
     margin-bottom: 0px;
 }
 
+.table-active {
+    background-color: var(--layer-accent-01);
+}
+
 /*TABLA EXTERIOR*/
 
 .table-top {
@@ -1367,6 +1366,14 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     /*border-color: rgba(0,0,0,.08);*/
     color: var(--text-secondary);
     background-color: var(--layer-01);
+}
+
+.k-grid-norecords-template {
+    height: auto;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    color: var(--text-secondary);
 }
 
 /* SITEFINITY */
