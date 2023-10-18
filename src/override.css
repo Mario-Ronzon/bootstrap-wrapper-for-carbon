@@ -793,7 +793,7 @@ body{
 
 .form-check-input[type=radio]:checked {
     transition: ease-in-out 0.2s;
-    /*background-color: var(--text-primary);*/
+    background-color: var(--text-primary);
     background-image: var(--radio-svg-on);
 }
 
