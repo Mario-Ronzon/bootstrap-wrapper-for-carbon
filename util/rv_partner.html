@@ -26,19 +26,19 @@
                     <h3 class="my-4">Iluminaci&oacute;n</h3>
                     <div style="background-color: var(--layer-01);" class="p-2 row">
                         <div class="text-center p-2 text-truncate col">
-                            <small>frontal izqierda</small>
+                            <small>Frontal izqierda</small>
                             <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
                         </div>
                         <div class="text-center p-2 text-truncate col">
-                            <small>frontal derecha</small>
+                            <small>Frontal derecha</small>
                             <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
                         </div>
                         <div class="text-center p-2 text-truncate col">
-                            <small>posterior izquierda</small>
+                            <small>Posterior izquierda</small>
                             <h3 class="bi bi-lightbulb-fill mt-3 text-primary"></h3>
                         </div>
                         <div class="text-center p-2 text-truncate col">
-                            <small>posterior derecha</small>
+                            <small>Posterior derecha</small>
                             <h3 class="bi bi-lightbulb-fill mt-3 text-primary"></h3>
                         </div>
                     </div>
@@ -46,20 +46,126 @@
                 <!--TEMPERATURA-->
                 <div class="">
                     <h3 class="my-4">Temperatura</h3>
+                    <div style="background-color: var(--layer-01);" class="p-2 row">
+                        <h3 class="lead fs-4"><i class="bi bi-thermometer-half"></i> Termostato</h3>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col text-muted">Temperatura:</div>
+                                <div class="col">23°C</div>
+                            </div>
+                            <div class="row">
+                                <div class="col text-muted">Estatus:</div>
+                                <div class="col">Enfriando</div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <button type="button" class="btn btn-light col">-</button>
+                                <div class="col"><span class="display-6">23</span><span>°C</span></div>
+                                <button type="button" class="btn btn-light col">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-color: var(--layer-01);" class="mb-2 row">
+                        <button type="button" class="btn btn-light col">
+                            <span>Apagar</span>
+                            <i class="bi bi-power"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary col">
+                            <span>Refrigerar</span>
+                            <i class="bi bi-snow2"></i>
+                        </button>
+                    </div>
+
                     <div class="row">
-                        <div class="col-4 mb-2">
-                            <div style="background-color: var(--layer-01);" class="p-2 d-flex justify-content-center">
-
+                        <div class="col-4 px-0 mb-2">
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Interior</small>
+                                <br>
+                                <span class="display-6">23</span><span>°C</span>
+                                <br>
+                                <div class="row">
+                                    <small class="col fw-bold">Min</small>
+                                    <small class="col fw-bold">Max</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">11°C</small>
+                                    <small class="col">43°C</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">7:23</small>
+                                    <small class="col">16:18</small>
+                                </div>
                             </div>
                         </div>
                         <div class="col-4 mb-2">
-                            <div style="background-color: var(--layer-01);" class="p-2 d-flex justify-content-center">
-
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Exterior</small>
+                                <br>
+                                <span class="display-6">29</span><span>°C</span>
+                                <br>
+                                <div class="row">
+                                    <small class="col fw-bold">Min</small>
+                                    <small class="col fw-bold">Max</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">11°C</small>
+                                    <small class="col">43°C</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">7:23</small>
+                                    <small class="col">16:18</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 mb-2">
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Radiador</small>
+                                <br>
+                                <span class="display-6">63</span><span>°C</span>
+                                <br>
+                                <div class="row">
+                                    <small class="col fw-bold">Min</small>
+                                    <small class="col fw-bold">Max</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">11°C</small>
+                                    <small class="col">63°C</small>
+                                </div>
+                                <div class="row">
+                                    <small class="col">7:23</small>
+                                    <small class="col">16:18</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SISTEMA ELECTRICO-->
+                <div class="">
+                    <h3 class="my-4">Sistema electrico</h3>
+                    <div class="row">
+                        <div class="col-4 px-0 mb-2">
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Bateria 13.1v</small>
+                                <br>
+                                <span class="display-6">100</span><span class="text-muted">%</span>
+                                <br>
                             </div>
                         </div>
                         <div class="col-4 mb-2">
-                            <div style="background-color: var(--layer-01);" class="p-2 d-flex justify-content-center">
-
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Consumo</small>
+                                <br>
+                                <span class="display-6">-12.9</span><span class="text-muted">A</span>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-4 px-0 mb-2">
+                            <div style="background-color: var(--layer-01);" class="p-2 justify-content-center">
+                                <small>Recarga</small>
+                                <br>
+                                <span class="display-6">159</span><span class="text-muted">W</span>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -85,31 +191,31 @@
                         <div class="row">
                             <div class="text-center p-2 text-truncate col">
                                 <span>Miercoles 18</span>
-                                <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
+                                <h3 class="bi bi-cloud-haze mt-3 text-muted"></h3>
                                 <span>30.1°</span><br>
                                 <small class="text-muted">14.8°</small>
                             </div>
                             <div class="text-center p-2 text-truncate col">
                                 <span>Jueves 19</span>
-                                <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
+                                <h3 class="bi bi-cloud-drizzle mt-3 text-muted"></h3>
                                 <span>30.1°</span><br>
                                 <small class="text-muted">14.8°</small>
                             </div>
                             <div class="text-center p-2 text-truncate col">
                                 <span>Viernes 20</span>
-                                <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
+                                <h3 class="bi bi-clouds mt-3 text-muted"></h3>
                                 <span>30.1°</span><br>
                                 <small class="text-muted">14.8°</small>
                             </div>
                             <div class="text-center p-2 text-truncate col">
                                 <span>Sabado 21</span>
-                                <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
+                                <h3 class="bi bi-cloud-rain mt-3 text-muted"></h3>
                                 <span>30.1°</span><br>
                                 <small class="text-muted">14.8°</small>
                             </div>
                             <div class="text-center p-2 text-truncate col">
                                 <span>Domingo 22</span>
-                                <h3 class="bi bi-lightbulb-fill mt-3 text-muted"></h3>
+                                <h3 class="bi bi-cloud-sun mt-3 text-muted"></h3>
                                 <span>30.1°</span><br>
                                 <small class="text-muted">14.8°</small>
                             </div>
