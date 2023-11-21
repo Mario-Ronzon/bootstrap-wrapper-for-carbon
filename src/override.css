@@ -1,9 +1,36 @@
-/* FONDOS (EXPERIMENTAL) */
-
-body{
+body {
     background-color: var(--background);
     color: var(--text-primary);
 }
+
+a {
+    color: var(--link-primary);
+}
+
+a:hover {
+    color: var(--link-primary-hover);
+}
+
+a:focus {
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: var(--focus);
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:disabled {
+    color: var(--text-disabled);
+}
+
+::selection {
+    color: var(--accent-60);
+    background-color: rgba(var(--accent-60),.1);
+}
+
+/* FONDOS (EXPERIMENTAL) */
 
 .bg-primary {
     background-color: rgba(var(--accent-60), 1) !important;

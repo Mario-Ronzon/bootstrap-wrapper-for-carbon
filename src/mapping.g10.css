@@ -91,7 +91,7 @@
     --link-primary-hover: rgba(var(--accent-70), 1);
     --link-secondary: rgba(var(--accent-70), 1);
     --link-inverse: rgba(var(--accent-40), 1);
-    --linkVisited: rgba(var(--purple-60), 1);
+    --link-visited: rgba(var(--purple-60), 1);
     --link-inverse-active: rgba(var(--gray-10), 1);
     --link-inverse-hover: rgba(var(--accent-30), 1);
     --icon-primary: rgba(var(--gray-100), 1);
