@@ -113,6 +113,11 @@ a:disabled {
     color: var(--support-warning-inverse);
 }
 
+/* ACCORDION */
+.accordion {
+    --bs-accordion-bg: transparent;
+}
+
 /* PRIMARY BUTTON */
 
 .btn-primary {
