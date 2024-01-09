@@ -25,6 +25,26 @@ a:disabled {
     color: var(--text-disabled);
 }
 
+a:visited .btn-primary,
+a:visited .btn-secondary,
+a:visited .btn-danger,
+a:visited .btn-dark,
+a:visited .btn-success {
+    color: var(--text-on-color);
+}
+
+a:visited .btn-light {
+    color: var(--icon-primary);
+}
+
+a:visited .btn-outline-primary {
+    color: var(--button-tertiary);
+}
+
+a:visited .btn-outline-danger {
+    color: var(--button-danger-secondary);
+}
+
 ::selection {
     color: var(--accent-60);
     background-color: rgba(var(--accent-60),.1);
