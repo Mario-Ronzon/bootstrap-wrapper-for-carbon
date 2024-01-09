@@ -25,23 +25,23 @@ a:disabled {
     color: var(--text-disabled);
 }
 
-a:visited .btn-primary,
-a:visited .btn-secondary,
-a:visited .btn-danger,
-a:visited .btn-dark,
-a:visited .btn-success {
+a.btn-primary:visited,
+a.btn-secondary:visited,
+a.btn-danger:visited,
+a.btn-dark:visited,
+a.btn-success:visited {
     color: var(--text-on-color);
 }
 
-a:visited .btn-light {
+a.btn-light:visited {
     color: var(--icon-primary);
 }
 
-a:visited .btn-outline-primary {
+a.btn-outline-primary:visited {
     color: var(--button-tertiary);
 }
 
-a:visited .btn-outline-danger {
+a.btn-outline-danger:visited {
     color: var(--button-danger-secondary);
 }
 
