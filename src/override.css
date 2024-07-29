@@ -50,6 +50,10 @@ a.btn-outline-danger:visited {
     background-color: rgba(var(--accent-60),.1);
 }
 
+.text-secondary {
+    color: var(--text-secondary) !important;
+}
+
 /* FONDOS (EXPERIMENTAL) */
 
 .bg-primary {
@@ -600,6 +604,12 @@ a.btn-outline-danger:visited {
 .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
      border-top-right-radius: var(--corner-radius);
     border-bottom-right-radius: var(--corner-radius);
+}
+
+/*MISC*/
+
+.placeholder {
+    opacity: 0.1;
 }
 
 /*FORMULARIOS*/
@@ -1428,10 +1438,15 @@ thead.k-grid-header th.k-header:last-child, thead.k-grid-header th.k-header:firs
     color: var(--text-secondary);
 }
 
+/*UTILS (CARBON NON-ORIGINAL CLASSES)*/
+.layer-01 {
+    background-color: var(--layer-01);
+}
+
 /* SITEFINITY */
 
 /* TOP-TABLE */
-.top-table{
+.top-table {
     background-color: var(--layer-01);
 }
 
